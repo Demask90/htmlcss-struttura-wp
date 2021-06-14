@@ -36,7 +36,7 @@ header div{
     float: left;
 }
 
-.main.bottom::after{ 
+.clearfix::after{ 
     content: "";
     display:table;
     clear: both;
