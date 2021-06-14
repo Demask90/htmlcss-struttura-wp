@@ -16,15 +16,16 @@ header div{
 
 .main{
     width: 100%;
-    margin-top: 20px;
 }
 
 .main.top{
     background-color: palegoldenrod;
+    margin-top: 20px;
 }
     
 .main.bottom{
     background-color: blue;
+    margin-top: 30px;
 }
 
 .main.bottom div{
