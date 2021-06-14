@@ -9,13 +9,9 @@
     margin: 20px auto;
 }
 
-.text.header{
+header div{
     width: 100%;
     background-color: plum;
-}
-
-.text{
-    padding: 5px;
 }
 
 .main{
@@ -31,6 +27,10 @@
     background-color: blue;
 }
 
+.main.bottom div{
+    background-color: cornflowerblue;
+}
+
 .main.bottom .float{
     float: left;
 }
@@ -40,10 +40,6 @@
     display:table;
     clear: both;
 }  
-
-.main.bottom .text{
-    background-color: cornflowerblue;
-}
 
 .main.bottom .side{
     width: calc(100% / 5 - 5px);
@@ -55,7 +51,11 @@
     margin: 10px;
 }
 
-.footer{
+*:not(.main.bottom){
+    padding: 5px;
+}
+
+footer div{
     margin-top: 5px;
     background-color: blueviolet;
 }
